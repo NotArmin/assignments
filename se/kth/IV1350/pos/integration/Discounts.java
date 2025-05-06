@@ -18,7 +18,7 @@ public class Discounts {
     }
 
     public static double getSaleDiscount(double totalPrice) {
-        return totalPrice > 500.0 ? 50.0 : 0.0;
+        return totalPrice > 100.0 ? 5.0 : 0.0;
     }
 
     public static double getCustomerDiscountRate(int customerID) {

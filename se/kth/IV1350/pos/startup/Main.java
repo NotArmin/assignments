@@ -8,7 +8,8 @@ public class Main {
         controller.startSale(123, 1, "2023-10-05");
         
         // Scan items
-        controller.enterItemID(1001, 10); // Has 5% item discount
+        controller.enterItemID(1001, 5); // Has 5% item discount
+        controller.enterItemID(1001, 5);
         controller.enterItemID(1003, 5);   // No discount
         controller.enterItemID(9999, 1);   // Invalid item
         
