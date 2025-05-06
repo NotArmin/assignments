@@ -3,7 +3,7 @@ package se.kth.IV1350.pos.model;
 import java.util.ArrayList;
 import java.util.List;
 
-import integration.Discounts;
+import se.kth.IV1350.pos.integration.Discounts;
 
 public class Sale {
     private List<SaleLineItem> lineItems = new ArrayList<>();

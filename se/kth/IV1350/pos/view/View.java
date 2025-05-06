@@ -1,9 +1,9 @@
 package se.kth.IV1350.pos.view;
 
-import controller.Controller;
-import model.Item;
-import model.Receipt;
-import model.SaleLineItem;
+import se.kth.IV1350.pos.controller.Controller;
+import se.kth.IV1350.pos.model.Item;
+import se.kth.IV1350.pos.model.Receipt;
+import se.kth.IV1350.pos.model.SaleLineItem;
 
 
 public class View {

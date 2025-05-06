@@ -1,10 +1,10 @@
 package se.kth.IV1350.pos.dbhandler;
 
-import integration.Accounting;
-import integration.Discounts;
-import integration.Inventory;
-import model.Item;
-import model.Sale;
+import se.kth.IV1350.pos.integration.Accounting;
+import se.kth.IV1350.pos.integration.Discounts;
+import se.kth.IV1350.pos.integration.Inventory;
+import se.kth.IV1350.pos.model.Item;
+import se.kth.IV1350.pos.model.Sale;
 
 public class DbHandler {
     public Item getItem(int itemID) {

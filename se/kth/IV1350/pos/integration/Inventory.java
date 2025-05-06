@@ -3,8 +3,8 @@ package se.kth.IV1350.pos.integration;
 import java.util.HashMap;
 import java.util.Map;
 
-import model.Item;
-import model.Sale;
+import se.kth.IV1350.pos.model.Item;
+import se.kth.IV1350.pos.model.Sale;
 
 public class Inventory {
     private static final Map<Integer, Item> items = new HashMap<>();

@@ -1,8 +1,8 @@
 package se.kth.IV1350.pos.controller;
 
-import dbhandler.DbHandler;
-import model.*;
-import view.View;
+import se.kth.IV1350.pos.dbhandler.DbHandler;
+import se.kth.IV1350.pos.model.*;
+import se.kth.IV1350.pos.view.View;
 
 public class Controller {
     private Sale currentSale;

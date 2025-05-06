@@ -1,6 +1,6 @@
 package se.kth.IV1350.pos.startup;
 
-import controller.Controller;
+import se.kth.IV1350.pos.controller.Controller;
 
 public class Main {
     public static void main(String[] args) {
