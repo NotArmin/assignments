@@ -11,8 +11,8 @@ public class Inventory {
     
     static {
         items.put(1001, new Item(1001, "Premium Coffee", 12.99, 0.25));
-        items.put(1002, new Item(1002, "Artisan Tea", 8.99, 0.25));
-        items.put(1003, new Item(1003, "Bottled Water", 2.99, 0.10));
+        items.put(1002, new Item(1002, "Artisan Tea", 8.99, 0.12));
+        items.put(1003, new Item(1003, "Bottled Water", 2.99, 0.06));
     }
 
     public static Item getItem(int itemID) {

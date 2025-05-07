@@ -18,7 +18,7 @@ public class Main {
         controller.endSale();
         
         // Apply customer discount (ID 555 gets 5%)
-        controller.applyDiscount(555);
+        controller.applyCustDiscount(555);
         
         // Process payment
         controller.processPayment(200.00);

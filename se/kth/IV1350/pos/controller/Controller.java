@@ -35,7 +35,7 @@ public class Controller {
         view.showTotal(currentSale.getTotalPrice());
     }
 
-    public void applyDiscount(int customerID) {
+    public void applyCustDiscount(int customerID) {
         double discount = dbHandler.getCustomerDiscount(customerID);
         currentSale.applyCustomerDiscount(discount);
         view.showTotal(currentSale.getTotalPrice());
