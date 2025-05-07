@@ -11,6 +11,13 @@ public class SaleLineItem {
         this.itemDiscount = itemDiscount;
     }
 
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+    public void setItemDiscount(double itemDiscount) {
+        this.itemDiscount = itemDiscount;
+    }
+
     public double getSubtotal() {
         double basePrice = item.getPrice() * quantity;
         return basePrice - (basePrice * itemDiscount);

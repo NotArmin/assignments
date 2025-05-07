@@ -13,6 +13,14 @@ public class Sale {
     private double customerDiscountRate;
 
     public void addLineItem(Item item, int quantity, double itemDiscount) {
+        for (int i = 0; i < lineItems.size(); i++) {
+            if (lineItems.get(i).getItem().getItemID() == item.getItemID()) {
+                lineItems.get(i).setQuantity(lineItems.get(i).getQuantity() + quantity);
+                lineItems.get(i).setItemDiscount(itemDiscount);
+                calculateTotal();
+                return;
+            }
+        }
         lineItems.add(new SaleLineItem(item, quantity, itemDiscount));
         calculateTotal();
     }
